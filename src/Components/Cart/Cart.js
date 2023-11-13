@@ -12,7 +12,7 @@ const Cart = (props) => {
     }
     
     return (
-        <div>
+        <div className='w-100'>
             <button className="btn cart-button btn-dark" onClick={modalHandler}>
                 🛒 Your Cart <span className="cart-value">{cartCtx.items.length}</span></button>
             {showModal && createPortal(<CartModal click={modalHandler} /> , document.getElementById('modal-area'))}
