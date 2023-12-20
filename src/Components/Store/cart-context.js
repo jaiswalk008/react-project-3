@@ -5,5 +5,7 @@ const CartContext =
        addItem:(item) => {},
        total:0,
        addTotal:(price) => {},
+       totalItems:0,
+       setTotalItems:() =>{},
     });
 export default CartContext;

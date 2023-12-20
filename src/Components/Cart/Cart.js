@@ -1,4 +1,4 @@
-import { useCallback, useContext, useState } from 'react';
+import { useContext, useState } from 'react';
 import {createPortal} from 'react-dom';
 import './Cart.css'
 import CartModal from './CartModal';
